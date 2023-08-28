@@ -26,20 +26,21 @@ The main contract in this project is the `BoxV1` contract, serving as the initia
 
    ```sh
    git clone https://github.com/PhoenixSatoshi/foundry-upgrades-f23-1.git
-   cd box-upgrades
+   cd foundry-upgrades
 
 ## Install Dependencies
-
-npm install
+```sh
+forge install
 
 ## Compile the contracts
-
-npx hardhat compile
+```sh
+forge build
 
 ## Run tests
+```sh
+forge test
 
-npx hardhat test
-Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create an issue or a pull request.
 
 ## License
