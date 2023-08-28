@@ -29,15 +29,15 @@ The main contract in this project is the `BoxV1` contract, serving as the initia
    cd foundry-upgrades
 
 ## Install Dependencies
-```sh
+
 forge install
 
 ## Compile the contracts
-```sh
+
 forge build
 
 ## Run tests
-```sh
+
 forge test
 
 ## Contributing
